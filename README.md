@@ -8,5 +8,5 @@ The main program (bitshower.py) is under the MIT license, which is stored in the
 Usage
 -----
 
-1. Set your terminal colour to green on black and make it full screen (if you're not on Windows..)
+1. Set your terminal colour to green on black and make it full screen (unless you're on Windows..)
 2. Run it, sit back, put some dubstep on, and hack away!

@@ -1,4 +1,5 @@
 # Copyright James Flanagan 2014
+# Provided under the MIT license (see the LICENSE file)
 
 # TODO: add some more comments!
 

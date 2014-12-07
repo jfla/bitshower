@@ -4,6 +4,8 @@
 # TODO: add some more comments!
 
 from random import randint, randrange
+from sys import stdout
+
 import console_size
 
 (CONSOLE_WIDTH, CONSOLE_HEIGHT) = console_size.getTerminalSize()
@@ -47,6 +49,6 @@ while True:
             # by the previous line.
             numSpacesToAdd = l - linesList[i-1] - 1
 
-        print(" " * numSpacesToAdd + str(randbit()), end='')
+        stdout.write(' ' * numSpacesToAdd + str(randbit()))
 
-    print()
+    stdout.write('\n')
